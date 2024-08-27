@@ -19,10 +19,11 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="text-4xl pb-8 font-bold tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Chamod Neluhena
+              I'm Chamod
             </motion.h1>
+            
             <motion.span
               variants={container(0.5)}
               initial="hidden"
